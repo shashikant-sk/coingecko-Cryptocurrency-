@@ -12,7 +12,7 @@ const DataBox: React.FC<DataBoxProps> = ({ emojis }) => {
   return (
     <>
       <div className="flex flex-col justify-center items-center">
-        <div className="flex justify-between items-center w-full flex-row px-4 ">
+        <div className="flex justify-between items-center w-full flex-row px-4">
           <div className="flex flex-col w-[33%]">
             {/* first box */}
             

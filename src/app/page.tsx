@@ -4,6 +4,7 @@ import Table from './Components/table';
 import TableHeader from './Components/tableHeader';
 import DataBox from './Components/dataBox';
 
+
 interface PageProps {
   // Props for the Page component, if needed
 }
@@ -19,7 +20,9 @@ const Page: React.FC<PageProps> = (props) => {
         dominance="BTC 47.6%"
         gas="20 GWEI"
       />
-      <DataBox />
+      
+   
+      <DataBox emojis={[]} />
       <TableHeader />
       <Table />
     </main>

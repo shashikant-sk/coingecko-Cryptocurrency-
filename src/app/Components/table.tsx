@@ -345,6 +345,22 @@ export default function Table() {
         marketCap="$853,680,038,622"
         lastSevenDaysGraph="https://www.coingecko.com/coins/1/sparkline.svg"
       />
+      <Row
+        rank="1"
+        coinImage="https://assets.coingecko.com/coins/images/1/standard/bitcoin.png?1696501400"
+        coinName="Bitcoin"
+        coinShortName="BTC"
+        price="$43,523.55"
+        oneHourPercentage="0.2%"
+        oneHourDirection="down"
+        twentyFourHourPercentage="0.3%"
+        twentyFourHourDirection="up"
+        sevenDayPercentage="8.6%"
+        sevenDayDirection="up"
+        twentyFourHourVolume="$24,998,357,793"
+        marketCap="$853,680,038,622"
+        lastSevenDaysGraph="https://www.coingecko.com/coins/1/sparkline.svg"
+      />
 
       {/* Add more rows as needed */}
 
