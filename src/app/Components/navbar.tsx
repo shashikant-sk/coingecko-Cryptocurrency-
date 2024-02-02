@@ -1,4 +1,5 @@
 import React from 'react';
+import AuthForm from './AuthForm';
 
 interface NavbarProps {
   coins: number;
