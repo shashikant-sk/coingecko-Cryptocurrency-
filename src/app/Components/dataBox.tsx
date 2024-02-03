@@ -11,9 +11,9 @@ interface DataBoxProps {
 const DataBox: React.FC<DataBoxProps> = ({ emojis }) => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center h-full">
         <div className="flex justify-between items-center w-full flex-row px-4">
-          <div className="flex flex-col w-[33%]">
+          <div className="flex flex-col w-[35%] h-48 ">
             {/* first box */}
             
             <StatusBox
@@ -35,7 +35,7 @@ const DataBox: React.FC<DataBoxProps> = ({ emojis }) => {
 
             {/* second box */}
           </div>
-          <div className="flex flex-col w-[35%] border shadow px-4 py-2 rounded-3xl m-2">
+          <div className="flex flex-col w-[35%] h-48 border shadow px-4 py-2 rounded-3xl m-2">
             <div className="flex justify-between my-2">
               <span>🔥 Trending</span>
               <span>View more</span>
@@ -94,7 +94,7 @@ const DataBox: React.FC<DataBoxProps> = ({ emojis }) => {
           </div>
           {/* 3rd row Box */}
           {/* 1st */}
-          <div className="flex flex-col w-[40%] border shadow px-4 py-2 rounded-3xl">
+          <div className="flex flex-col w-[35%] h-48 border shadow px-4 py-2 rounded-3xl">
             <div className="flex justify-between my-2">
               <span>🚀 Largest Gainers</span>
               <span> View more</span>
